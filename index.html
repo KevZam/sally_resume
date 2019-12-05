@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" />
+    <title>Sally Student Resume</title>
+    <meta name="description" content="Sally's resume" />
+  </head>
+  <body>
+    <div id="sallys_resume"></div>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+      ReactDOM.render(
+        <div>
+          <header>
+            <h1>Sally Student's Resume</h1>
+          </header>
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg"
+            style={{ width: "250px" }}
+          />
+          <main>
+            <section>
+              <header>
+                <h2>Education</h2>
+              </header>
+              <ul>
+                <li>California State University, San Luis Obisbo</li>
+                <li>Saddleback Community College</li>
+              </ul>
+            </section>
+            <section>
+              <header>
+                <h2>Employment History</h2>
+              </header>
+              <strong>Kellogg Company </strong> <br />
+              <em>Kellogg's Sales Representative </em> <br />
+              Januray 2018 - February 2019 <br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <strong> Google </strong> <br />
+              <em> Software Engineer </em> <br />
+              March 2015 - June 2018 <br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <br />
+            </section>
+            <header>
+              <h3> Contact Me</h3>
+            </header>
+            <address>
+              <p>
+                Sally Student
+                <br />
+                <a href="mailto:StudentSallyn@yahoo.com">
+                  SallyStudent@yahoo.com
+                </a>
+                <br />
+                <a href="tel:111-111-1111"> 111-111-1111 </a>
+                <br />
+              </p>
+            </address>
+          </main>
+        </div>,
+        document.querySelector("#sallys_resume")
+      );
+    </script>
+  </body>
+</html>
